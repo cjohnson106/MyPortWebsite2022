@@ -6,15 +6,15 @@
 
 body {
   margin: 0;
-  background: #ededed;
+  background: #111D2B;
 }
 nav {
   font-family: "hubballi", sans serif;
   font-size: 16pt;
-  background-color: #b5b5b5;
+  background-color: #4D96B1;
   display: flex;
   justify-content: space-around;
-  border-bottom: 2pt solid black
+  border-bottom: 2pt solid #B70721;
 }
 
 #personallogo {
@@ -22,26 +22,31 @@ nav {
   width: auto;
   display: flex;
   align-self: center;
+  color: white;
 }
 h1 {
   font-family: "Source+Sans+Pro", sans-serif;
   font-size: 24pt;
+  color: #90CECD;
 }
 p {
   font-family: "montserrat", sans-serif;
   font-size: 14pt;
+  color: #90CECD;
 }
 
 footer {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #b5b5b5;
+  background-color: #4D96B1;
   font-family: "montserrat", sans-serif;
   font-size: 12pt;
+  color: black;
 }
 ul {
   list-style: none;
+  color: white;
 }
 .margin {
   margin: 50px;
@@ -56,11 +61,13 @@ ul {
   max-width: 320px;
   font-family: "montserrat", sans-serif;
   font-size: 12pt;
+  color: white;
 }
 
 h2 {
   font-family: "Source+Sans+Pro", sans-serif;
   font-size: 18pt;
+  color: white;
 }
 .navlist {
   font-family: "montserrat", sans-serif;
@@ -68,6 +75,13 @@ h2 {
 }
 
 /* 🛑DO NOT EDIT ABOVE THIS LINE🛑 */
+a{
+  color: #B70721;
+}
+
+.filter{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(23deg) brightness(118%) contrast(118%);
+}
 
 .content {
   height: 500px;
@@ -96,11 +110,12 @@ h2 {
   padding-top: 20px;
 }
 
-.underline{
-  text-decoration: underline
+.head{
+  font-size: 32pt;
+  /* text-decoration: underline */
 }
 .border{
-  border: solid black 2px;
+  border: solid #B70721 2px;
 }
 
 .scale:hover{
