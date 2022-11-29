@@ -118,7 +118,7 @@ a{
   /* text-decoration: underline */
 }
 .border{
-  border: solid #B70721 2px;
+  /* border: solid #B70721 2px; */
 }
 
 .scale:hover{
